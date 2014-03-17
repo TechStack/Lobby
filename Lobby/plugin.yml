@@ -1,0 +1,19 @@
+name: Lobby
+main: com.projectreddog.lobby.Lobby
+version: .1
+commands:
+  speed:
+    description: Used by VIP's to Enable or disable SPEED effects
+    usage: /<command> [ON | OFF]
+    permission: LOBBY.VIP.SPEED
+    permission-message: You don't have <permission>
+  VIP:
+    description: Used by VIP's to Access the VIP area
+    usage: /<command> [ON | OFF]
+    permission: LOBBY.VIP.AREA
+    permission-message: You don't have <permission>
+  FW:
+    description: Used by VIP's to Shoot fireworks
+    usage: /<command> [ON | OFF]
+    permission: LOBBY.VIP.FIREWORK
+    permission-message: You don't have <permission>
