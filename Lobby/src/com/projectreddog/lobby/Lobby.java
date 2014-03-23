@@ -50,7 +50,7 @@ public class Lobby extends JavaPlugin implements Listener {
 			}
 			if (label.equalsIgnoreCase("VIP")){
 				if (p.hasPermission("LOBBY.VIP.AREA") ){
-						p.teleport(new Location(Bukkit.getWorld("world"),  -69, 130, 268), TeleportCause.PLUGIN);
+						p.teleport(new Location(Bukkit.getWorld("world"),  -69, 131, 268), TeleportCause.PLUGIN);
 						return true;
 				}else{
 					//no access to this are
